@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { ClubContext } from "../context/ClubContext";
 
 function AssignRoles() {
   const [club, setClub] = useState("");
